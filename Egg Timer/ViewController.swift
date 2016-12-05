@@ -39,8 +39,8 @@ class ViewController: UIViewController {
     }
     
     func counter() {
-        counterValue.text = "\(value)"
         value -= 1
+        counterValue.text = "\(value)"
     }
     
     override func viewDidLoad() {
